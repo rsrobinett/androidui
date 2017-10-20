@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.TabLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.oregonstate.rsrobinett.androidui.TabLayoutActivity"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <android.support.design.widget.TabItem
+        android:text="tab 1"
+        android:layout_height="@dimen/tab_height"
+        android:layout_width="fill_parent"/>
+
+    <android.support.design.widget.TabItem
+        android:text="tab 2"
+        android:layout_height="@dimen/tab_height"
+        android:layout_width="fill_parent"/>
+
+    <android.support.design.widget.TabItem
+        android:text="tab 3"
+        android:layout_height="@dimen/tab_height"
+        android:layout_width="fill_parent"/>
+
+    <android.support.design.widget.TabItem
+        android:text="tab 4"
+        android:layout_height="@dimen/tab_height"
+        android:layout_width="fill_parent"/>
+
+    <android.support.design.widget.TabItem
+        android:text="tab 5"
+        android:layout_height="@dimen/tab_height"
+        android:layout_width="fill_parent"/>
+
+</android.support.design.widget.TabLayout>

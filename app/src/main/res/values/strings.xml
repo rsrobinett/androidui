@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AndroidUI</string>
+    <string name="assignment">In this assignment you need to make an app that has 5 different activities. The main activity is a list of buttons, each of which will launch a new activity within the app.
+
+Each of those activities should display at least 5 elements in a different way. The elements can be entirely at your choosing.
+
+A minimal example that fully meets the requirements would be displaying the numbers 1 through 5 in a LinearLayout (horizontal and vertical), a GridLayout and a RelativeLayout.
+
+Alternatively you could replace one or more of those with Views bound to Adapters if you wanted to get a little more advanced with your implementation. For example you could use a RecyclerView to display a infinite list of numbers.
+
+Deliverables:
+
+You should zip up the entire project directory and submit it as a zip file (you should not include the directories created by building, we just want the source code). You should also record a video demonstrating the functionality of your project. This can be uploaded to media.oregonstate.edu and a link to the video submitted as a comment along with the assignment.
+
+Previous Next
+</string>
+    <string name="title_activity_linear_layout">LinearLayoutActivity</string>
+    <string name="title_activity_relative_layout">RelativeLayoutActivity</string>
+</resources>

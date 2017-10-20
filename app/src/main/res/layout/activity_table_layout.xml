@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.oregonstate.rsrobinett.androidui.TableLayoutActivity">
+
+    <TableRow style="@style/table_row_header">
+        <TextView style="@style/table_text"
+            android:text="Name" />
+        <TextView style="@style/table_text"
+            android:text="Phone Number" />
+        <TextView style="@style/table_text"
+            android:text="Relationship" />
+    </TableRow>
+
+    <TableRow style="@style/table_row">
+        <TextView style="@style/table_text"
+            android:text="Contact 1" />
+        <TextView style="@style/table_text"
+            android:text="503-555-5551" />
+        <TextView style="@style/table_text"
+            android:text="Relationship 1" />
+    </TableRow>
+
+    <TableRow style="@style/table_row">
+        <TextView style="@style/table_text"
+            android:text="Contact 2" />
+        <TextView style="@style/table_text"
+            android:text="503-555-5552" />
+        <TextView style="@style/table_text"
+            android:text="Relationship 2" />
+    </TableRow>
+
+    <TableRow style="@style/table_row">
+        <TextView style="@style/table_text"
+            android:text="Contact 3" />
+        <TextView style="@style/table_text"
+            android:text="503-555-5553" />
+        <TextView style="@style/table_text"
+            android:text="Relationship 3" />
+    </TableRow>
+
+    <TableRow style="@style/table_row">
+        <TextView style="@style/table_text"
+            android:text="Contact 4" />
+        <TextView style="@style/table_text"
+            android:text="503-555-5554" />
+        <TextView style="@style/table_text"
+            android:text="Relationship 4" />
+    </TableRow>
+
+
+    <TableRow style="@style/table_row">
+        <TextView style="@style/table_text"
+            android:text="Contact 5" />
+        <TextView style="@style/table_text"
+            android:text="503-555-5555" />
+        <TextView style="@style/table_text"
+            android:text="Relationship 5" />
+    </TableRow>
+</TableLayout>
