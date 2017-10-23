@@ -7,12 +7,12 @@
     android:orientation="vertical"
     tools:context="edu.oregonstate.rsrobinett.androidui.FrameLayoutActivity">
 
-    <ImageView
+    <!--ImageView
         android:id="@+id/imageView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scaleType="centerCrop"
-        android:src="@drawable/oregon_state" />
+        android:src="@drawable/oregon_state" /-->
 
     <TextView
         android:id="@+id/textView1"

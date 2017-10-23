@@ -1,20 +1,9 @@
 package edu.oregonstate.rsrobinett.androidui;
-
 import android.content.Intent;
-import android.database.AbstractCursor;
-import android.database.CharArrayBuffer;
-import android.database.Cursor;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
-import android.widget.BaseAdapter;
 import android.widget.Button;
-import android.widget.CursorAdapter;
-import android.widget.ListView;
-import android.widget.TextView;
-import edu.oregonstate.rsrobinett.androidui.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -63,6 +52,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button button_table_layout = (Button) findViewById(R.id.button_table_layout);
+        button_table_layout.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, TableLayoutActivity.class);
+                startActivity(intent);
+            }
+        });
+
         Button button_tab_layout = (Button) findViewById(R.id.button_tab_layout);
         button_tab_layout.setOnClickListener(new View.OnClickListener(){
 
@@ -73,12 +72,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button button_table_layout = (Button) findViewById(R.id.button_table_layout);
-        button_table_layout.setOnClickListener(new View.OnClickListener(){
+        Button button_tabbed_layout = (Button) findViewById(R.id.button_tabbed_layout);
+        button_tabbed_layout.setOnClickListener(new View.OnClickListener(){
 
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(MainActivity.this, TableLayoutActivity.class);
+                Intent intent = new Intent(MainActivity.this, TabbedLayoutActivity.class);
                 startActivity(intent);
             }
         });

@@ -33,4 +33,8 @@
         style="@style/button"
         android:text="Tab Layout"/>
 
+    <Button android:id="@+id/button_tabbed_layout"
+        style="@style/button"
+        android:text="Tabbed Layout"/>
+
 </LinearLayout>
