@@ -5,14 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:id="@+id/frame_layout"
     tools:context="edu.oregonstate.rsrobinett.androidui.FrameLayoutActivity">
 
-    <!--ImageView
+    <ImageView
         android:id="@+id/imageView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scaleType="centerCrop"
-        android:src="@drawable/oregon_state" /-->
+        android:src="@drawable/oregon_state"/>
 
     <TextView
         android:id="@+id/textView1"
@@ -39,7 +40,7 @@
         android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="left|bottom"

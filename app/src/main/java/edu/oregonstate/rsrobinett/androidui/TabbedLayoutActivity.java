@@ -126,19 +126,26 @@ public class TabbedLayoutActivity extends AppCompatActivity {
                     rootView = inflater.inflate(R.layout.fragment_tab1, container, false);
                     //textView = (TextView) rootView.findViewById(R.id.section_label);
                     //textView.setText("First section");
-                    break;
+                    return rootView;
                 case 2:
                     rootView = inflater.inflate(R.layout.fragment_tab2, container, false);
                     //textView = (TextView) rootView.findViewById(R.id.section_label);
                     //textView.setText("First section");
-                    break;
+                    return rootView;
+                case 3:
+                    rootView = inflater.inflate(R.layout.fragment_tab3, container, false);
+                    return rootView;
+                case 4:
+                    rootView = inflater.inflate(R.layout.activity_frame_layout, container, false);
+                    return rootView;
                 default:
                     rootView = inflater.inflate(R.layout.fragment_tab1, container, false);
+                    return rootView;
                     //rootView = inflater.inflate(R.layout.fragment_tabbed_layout, container, false);
                     //textView = (TextView) rootView.findViewById(R.id.section_label);
                     //textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
             }
-            return rootView;
+
         }
     }
 
