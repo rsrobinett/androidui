@@ -21,7 +21,7 @@
         <item name="android:layout_height">fill_parent</item>
         <item name="android:layout_weight">1</item>
         <item name="android:background">@color/colorPrimaryLight</item>
-        <item name="android:paddingBottom">10dp</item>
+        <item name="android:layout_margin">5dp</item>
     </style>
 
     <style name="body_text_view">
@@ -51,6 +51,13 @@
     <style name="tab">
         <item name="android:layout_height">@dimen/tab_height</item>
         <item name="android:layout_width">fill_parent</item>
+    </style>
+
+    <style name="assignment">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:padding">30dp</item>
+        <item name="android:textSize">15dp</item>
     </style>
 
     <style name="AppTheme.NoActionBar">

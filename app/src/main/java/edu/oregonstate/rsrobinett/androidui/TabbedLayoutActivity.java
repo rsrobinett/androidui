@@ -70,6 +70,7 @@ public class TabbedLayoutActivity extends AppCompatActivity {
         return true;
     }
 
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
@@ -123,21 +124,18 @@ public class TabbedLayoutActivity extends AppCompatActivity {
             int sectionNumber = getArguments().getInt(ARG_SECTION_NUMBER);
             switch(sectionNumber){
                 case 1:
-                    rootView = inflater.inflate(R.layout.fragment_tab1, container, false);
-                    //textView = (TextView) rootView.findViewById(R.id.section_label);
-                    //textView.setText("First section");
-                    return rootView;
+                    return inflater.inflate(R.layout.fragment_tab1, container, false);
                 case 2:
                     rootView = inflater.inflate(R.layout.fragment_tab2, container, false);
-                    //textView = (TextView) rootView.findViewById(R.id.section_label);
-                    //textView.setText("First section");
+                    textView = rootView.findViewById(R.id.tab_body_2);
+                    textView.setText(R.string.tab_2_text);
                     return rootView;
                 case 3:
-                    rootView = inflater.inflate(R.layout.fragment_tab3, container, false);
-                    return rootView;
+                    return inflater.inflate(R.layout.fragment_tab3, container, false);
                 case 4:
-                    rootView = inflater.inflate(R.layout.activity_frame_layout, container, false);
-                    return rootView;
+                    return inflater.inflate(R.layout.activity_frame_layout, container, false);
+                case 5:
+                    return inflater.inflate(R.layout.activity_relative_layout,container, false);
                 default:
                     rootView = inflater.inflate(R.layout.fragment_tab1, container, false);
                     return rootView;
@@ -185,8 +183,6 @@ public class TabbedLayoutActivity extends AppCompatActivity {
                     return "SECTION 4";
                 case 4:
                     return "SECTION 5";
-                //default:
-                    //return "SECTION 1";
             }
             return null;
         }

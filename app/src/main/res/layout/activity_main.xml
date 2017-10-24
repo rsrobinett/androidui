@@ -11,19 +11,11 @@
 
     <Button android:id="@+id/button_linear_layout"
         style="@style/button"
-        android:text="Linear Layout" />
+        android:text="@string/linear_layout_button_text" />
 
     <Button android:id="@+id/button_grid_layout"
         style="@style/button"
-        android:text="Grid Layout" />
-
-    <Button android:id="@+id/button_relative_layout"
-        style="@style/button"
-        android:text="Relative Layout" />
-
-    <Button android:id="@+id/button_frame_layout"
-        style="@style/button"
-        android:text="Frame Layout" />
+        android:text="@string/grid_layout_button_Text" />
 
     <Button android:id="@+id/button_table_layout"
         style="@style/button"
@@ -32,5 +24,9 @@
     <Button android:id="@+id/button_tabbed_layout"
         style="@style/button"
         android:text="Tabbed Layout"/>
+
+    <Button android:id="@+id/button_assignment"
+        style="@style/button"
+        android:text="Assignment"/>
 
 </LinearLayout>
