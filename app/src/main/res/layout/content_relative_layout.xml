@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="edu.oregonstate.rsrobinett.androidui.RelativeLayoutActivity"
     tools:showIn="@layout/activity_relative_layout"
     android:orientation="vertical"
     android:padding="10dp"
+    android:paddingBottom="60dp"
     tools:layout_editor_absoluteY="8dp"
     tools:layout_editor_absoluteX="8dp">
 
@@ -29,7 +29,6 @@
         android:text="Button2" />
 
     <Button
-        android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/button1"
@@ -46,7 +45,6 @@
         android:layout_alignParentStart="true" />
 
     <Button
-        android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/button2"
@@ -54,7 +52,6 @@
         android:text="Button5" />
 
     <Button
-        android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/button4"
@@ -62,7 +59,6 @@
         android:text="Button6" />
 
     <Button
-        android:id="@+id/button7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toEndOf="@+id/button1"

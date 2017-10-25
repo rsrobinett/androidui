@@ -48,11 +48,6 @@
         <item name="android:background">@color/colorPrimary</item>
     </style>
 
-    <style name="tab">
-        <item name="android:layout_height">@dimen/tab_height</item>
-        <item name="android:layout_width">fill_parent</item>
-    </style>
-
     <style name="assignment">
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>

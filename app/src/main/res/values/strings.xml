@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AndroidUI</string>
+    <string name="app_name">Android UI</string>
     <string name="assignment">In this assignment you need to make an app that has 5 different activities. The main activity is a list of buttons, each of which will launch a new activity within the app.
 
 Each of those activities should display at least 5 elements in a different way. The elements can be entirely at your choosing.
@@ -17,14 +17,11 @@ Previous Next
     <string name="title_activity_grid_layout">Grid Layout Activity</string>
     <string name="title_activity_linear_layout">Linear Layout Activity</string>
     <string name="title_activity_assignment">Assignment Activity</string>
-    <string name="tab_1_text">Text to display when tab 1 is selected</string>
-    <string name="tab_2_text">Text to display when tab 2 is selected</string>
-    <string name="tab_3_text">Text to display when tab 3 is selected</string>
-    <string name="tab_4_text">Text to display when tab 4 is selected</string>
-    <string name="tab_5_text">Text to display when tab 5 is selected</string>
+    <string name="tab_1_text">Text to display when the first tab is selected</string>
+    <string name="tab_2_text">Text to display when the second is selected</string>
+    <string name="tab_3_text">Text to display when the third tab is selected.</string>
     <string name="title_activity_tabbed_layout">Tabbed Layout Activity</string>
     <string name="action_settings">I Could make this do stuff</string>
-    <string name="section_format">Hello World from section: %1$d</string>
     <string name="linear_layout_button_text">Linear Layout</string>
     <string name="grid_layout_button_Text">Grid Layout</string>
     <string name="title_activity_table_layout">Table Layout</string>

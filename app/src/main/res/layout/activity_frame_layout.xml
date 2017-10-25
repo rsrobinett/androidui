@@ -4,15 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:id="@+id/frame_layout"
-    >
+    android:paddingBottom="58dp"
+    tools:context="edu.oregonstate.rsrobinett.androidui.TabbedLayoutActivity$PlaceholderFragment"
+    android:orientation="vertical">
 
     <ImageView
         android:contentDescription="Weatherford Hall"
-        android:id="@+id/imageView1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:scaleType="centerCrop"
         android:src="@drawable/oregon_state"/>
 
@@ -28,7 +27,6 @@
         android:textSize="22sp" />
 
     <TextView
-        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end|bottom"
@@ -40,7 +38,6 @@
         android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="start|bottom"
